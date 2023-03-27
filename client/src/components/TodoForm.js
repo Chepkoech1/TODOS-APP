@@ -7,7 +7,7 @@ const TodoForm = ({handleSubmit, todo, editId, setTodo}) => {
         type = "text"
         value = {todo}
         onChange = {(e)=>setTodo(e.target.value)}/>
-        <button type ="submit">{editId ? "Edit" : "Go"}</button>
+        <button type ="submit">{editId ? "Edit" : "Add"}</button>
 
     </form>
   )
